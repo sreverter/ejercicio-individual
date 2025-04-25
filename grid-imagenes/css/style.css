@@ -1,0 +1,59 @@
+.grid-container {
+    display: grid;
+    height: 50em;
+    grid-template: 
+    "imagen1 imagen1 imagen2 imagen3" 34%
+    "imagen1 imagen1 imagen4 imagen5" 33%
+    "imagen6 imagen7 imagen8 imagen8" 33% / 1fr 1fr 1fr 1fr;
+    ;
+    gap: 10px;
+}
+
+.imagen1 {
+    grid-area: imagen1;
+    background-image: url('https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos.jpg');
+    background-size: cover;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+    background-image: url('../img/1791ba31e7f811793e3cd1274471f3ab.jpg');
+    background-size: cover;
+}
+
+.imagen3 {
+    grid-area: imagen3;
+    background-image: url('../img/34398.webp');
+    background-size: cover;
+}
+
+.imagen4 {
+    grid-area: imagen4;
+    background-image: url('../img/702.png');
+    background-size: cover;
+}
+
+.imagen5 {
+    grid-area: imagen5;
+    background-image: url('../img/f.elconfidencial.com_original_88f_c56_9e1_88fc569e1b06845133b960201c94cdf6.jpg');
+    background-size: cover;
+}
+
+.imagen6 {
+    grid-area: imagen6;
+    background-image: url('../img/islandia-arena-negra-playa-coche-reynisfjara.jpg');
+    background-size: cover;
+}
+
+.imagen7 {
+    grid-area: imagen7;
+    background-image: url('../img/montanas-del-arco-iris-uno-de-los-bonitos-paisajes-que-esconden-el-planeta.jpeg');
+    background-size: cover;
+}
+
+.imagen8 {
+    grid-area: imagen8;
+    background-image: url('../img/OXBPXN5MRZGDHDLBO7UQDNCSIY.jpg');
+    background-size: cover;
+}
+
