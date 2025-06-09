@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>formulario de gym</title>
+</head>
+<body class="dia">
+    <div class="container">
+        <button id="noche" class="active">Modo Noche</button>
+        <button id="dia" class="hidden">Modo dia</button>
+        <h1>Formulario de inscripción al gimnasio</h1>
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br>
+            <label for="Cantidad de dias">Cuantos dias quiere venir a la semana?</label>
+            <select name="dias" id="dias">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="+4">+4</option>
+            </select><br>
+            <label for="horario">En que horario del dia piensa venir?</label>
+            <select name="horario" id="horario">
+                <option value="mañana">Mañana 7-12hrs</option>
+                <option value="tarde">Tarde 13-17hrs</option>
+                <option value="noche">Noche 18-22hrs</option>
+            </select><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
