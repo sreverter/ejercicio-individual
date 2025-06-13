@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Vida</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>¿Cuántos días has vivido?</h2>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="Tu nombre" />
+      
+      <label for="fecha">Día de nacimiento:</label>
+      <input type="date" id="fecha" />
+
+      <button id="calcularBtn">Calcular</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="resultadoModal">
+    <div class="modal-content">
+      <span class="close" id="cerrarModal">&times;</span>
+      <p id="resultadoTexto"></p>
+    </div>
+  </div>
+
+  <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
